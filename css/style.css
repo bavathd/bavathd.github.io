@@ -710,7 +710,12 @@ a:hover {
 /*======================================
 //--//-->   SERVICES
 ======================================*/
-
+.services-mf h3 {
+  color:#fff;
+}
+.services-mf p {
+  color:#fff;
+}
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
@@ -733,43 +738,51 @@ a:hover {
 .service-box .ico-circle {
   transition: all 500ms ease;
   font-size: 4rem;
+  font-family:fantasy;
 }
 
 .service-box .s-title {
   font-size: 1.4rem;
-  text-transform: uppercase;
+  
   text-align: center;
   padding: .4rem 0;
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: #001558;
 }
+
 
 /*======================================
-//--//-->   COUNTER
+/--//-->  RESUME
 ======================================*/
-
-.counter-box {
-  color: #fff;
-  text-align: center;
+.resume-mf {
+  background-color: #fff;
 }
 
-.counter-ico {
-  margin-bottom: 1rem;
+.resume-mf .title-box .title-a{
+  color:#000;
 }
-
-.counter-ico .ico-circle {
-  height: 60px;
-  width: 60px;
-  line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+.resume-mf .title-box .subtitle-a{
+  color:#000;
 }
-
-.counter-num .counter {
+.resume-mf .title-box .btn{
+  margin-top: 1rem;
+  color:#fff;
   font-size: 2rem;
-  margin-bottom: 0;
+  background-color: #1B1B1B;
+  width: 10rem;
+  border-radius: 15px;
 }
+
+.resume-mf .title-box .btn:hover{
+  margin-top: 1rem;
+  color:#fff;
+  font-size: 2rem;
+  background-color: rgb(49, 62, 170);
+}
+
+
 
 /*======================================
 //--//-->   PORTFOLIO
@@ -780,6 +793,13 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+}
+
+.portfolio-mf .title-box .title-a{
+  color:#fff;
+}
+.portfolio-mf .title-box .subtitle-a{
+  color:#fff;
 }
 
 .work-box:hover img {
@@ -824,8 +844,11 @@ a:hover {
 }
 
 .w-title {
+  color: #000;
   font-size: 1.2rem;
 }
+
+
 
 /*======================================
 //--//-->   TESTIMONIALS
